@@ -1,0 +1,15 @@
+{
+  "name": "weatherappnodejs",
+  "version": "1.0.0",
+  "description": "creating a weather api app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "requests": "^0.3.0"
+  }
+}
