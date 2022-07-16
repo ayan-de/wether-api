@@ -42,4 +42,12 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.listen(8000, "127.0.0.1");
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+
+
+server.listen(port, "127.0.0.1", function(){
+console.log("server has started");
+});
